@@ -1,0 +1,39 @@
+.titre-copyrights{
+    position: inherit;
+    top: 10%;
+    left: 7%;
+    font-size: 390%;
+    font-weight: 900;
+    color:rgb(25, 209, 206);    
+    animation: openclose 5s ease-in-out;
+    width: 100%;
+}
+.text-copyrights{
+    position: inherit;
+    top:30%;
+}
+.text-copyrights .text-copyrights-1{
+    position: inherit;
+    top: 30%;
+    left: 7%;
+    font-size: 125%;
+    font-weight: bold;
+    color:white;
+    width: 40%;
+}
+.text-copyrights .text-copyrights-2{
+    position: inherit;
+    top: 30%;
+    left: 50%;
+    font-size: 125%;
+    font-weight: bold;
+    color:white;
+    width: 40%;
+}
+.liens-boxicons{
+    color:rgb(25, 209, 206);
+}
+.liens-boxicons:hover{
+    text-decoration: underline;
+    color:white;
+}

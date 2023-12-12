@@ -1,0 +1,27 @@
+.titre-about{
+    position: inherit;
+    top: 15%;
+    left: 7%;
+    font-size: 390%;
+    font-weight: 900;
+    color:white;    
+    animation: openclose 5s ease-in-out;
+    width: 100%;
+}
+.soustitre-about{
+    position: inherit;
+    top: 25%;
+    left: 7%;
+    font-size: 330%;
+    font-weight: 650;
+    color:rgb(25, 209, 206);
+}
+.texte-about{
+    position: inherit;
+    top: 40%;
+    left: 7%;
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    width: 60%;
+}
