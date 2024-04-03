@@ -1,0 +1,103 @@
+.titre-about{
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    font-size: 390%;
+    font-weight: 900;
+    color:white;   
+    width: 100%; 
+    overflow: hidden;
+    animation: open 2s ease;
+    white-space: nowrap;
+}
+@keyframes open {   
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.soustitre-about{
+    position: absolute;
+    top: 25%;
+    left: 7%;  
+    font-size: 330%;
+    font-weight: 650;
+    color:rgb(25, 209, 206);
+    width: 100%;
+    overflow: hidden;
+    animation: open 3s ease;
+    white-space: nowrap;
+}
+@keyframes open {   
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+.soustitre-about2{
+    position: absolute;
+    top: 65%;
+    left: 38%;  
+    font-size: 330%;
+    font-weight: 650;
+    color:rgb(25, 209, 206);
+    width: 100%;
+    overflow: hidden;
+    animation: open 3s ease;
+    white-space: nowrap;
+}
+.texte-about1{
+    position: absolute;
+    top: 40%;
+    left: 7%;
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    width: 100%;
+    overflow: hidden;
+    animation: open 4s ease;
+    white-space: nowrap;
+}
+.texte-about2{
+    position: absolute;
+    top: 80%;
+    left: 38%;
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    width: 100%;
+    overflow: hidden;
+    animation: open 4s ease;
+    white-space: nowrap;
+}
+@keyframes open {   
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+.BTS{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 100%;
+    left: 20%;
+    width: 25%;
+    left: 25%;
+    border-radius: 50px;
+}
+.footer-about{
+    position: absolute;
+    top: 130%;
+    left: 0;
+    width: 100%;
+    height: 12%;
+    background:transparent;
+    z-index: 100;
+}

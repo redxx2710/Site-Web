@@ -1,0 +1,7 @@
+.video-accueil{
+    transform: translate(-50%,-50%);
+    position: fixed;
+    top:50%;
+    left:75%;
+    border-radius: 20px;
+}

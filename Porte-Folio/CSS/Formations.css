@@ -1,0 +1,107 @@
+.titre-formations{
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    font-size: 390%;
+    font-weight: 900;
+    color:white;    
+    width: 100%;
+    overflow: hidden;
+    animation: open 2s ease;
+    white-space: nowrap;
+}
+    @keyframes open {   
+        0% {
+            width: 0;
+        }
+        100% {
+            width: 100%;
+        }
+    }
+.soustitre-formations{
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    font-size: 330%;
+    font-weight: 650;
+    color:rgb(25, 209, 206);
+    overflow: hidden;
+    animation: open 3s ease;
+    white-space: nowrap;
+}
+    @keyframes open {   
+        0% {
+            width: 0;
+        }
+        100% {
+            width: 100%;
+        }
+    }
+.texte-formations{
+    position: absolute;
+    top: 40%;
+    left: 7%;
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    width: 60%;
+    overflow: hidden;
+    animation: open 4s ease;
+    white-space: nowrap;
+}
+    @keyframes open {   
+        0% {
+            width: 0;
+        }
+        100% {
+            width: 100%;
+        }
+    }
+.titre-formations2{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    font-size: 390%;
+    font-weight: 900;
+    color:white;    
+    width: 100%;
+}
+.soustitre-formations2{
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    font-size: 330%;
+    font-weight: 650;
+    color:rgb(25, 209, 206);
+}
+.texte-formations2{
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    width: 60%;
+}
+.footer-formations{
+    position: absolute;
+    top: 170%;
+    left: 0;
+    width: 100%;
+    height: 12%;
+    background:transparent;
+    z-index: 100;
+}
+.certif{
+    position: absolute;
+    top:105%;
+    left:15%;
+    width: 25%;
+    height: 50%;
+}
+.diplome{
+    position: absolute;
+    top:60%;
+    left:65%;
+    
+}
