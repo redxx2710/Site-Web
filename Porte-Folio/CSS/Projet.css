@@ -1,5 +1,5 @@
 .titre-projet{
-    position: absolute;
+    position: fixed;
     top: 15%;
     left: 7%;
     font-size: 390%;
@@ -19,7 +19,7 @@
     }
 }
 .soustitre-projet{
-    position: absolute;
+    position: fixed;
     top: 25%;
     left: 7%;
     font-size: 330%;
@@ -38,7 +38,7 @@
     }
 }
 .texte-projet{
-    position: absolute;
+    position: fixed;
     top: 40%;
     left: 7%;
     font-size: 25px;
